@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Scrollable = () => {
   return (
-    <div className= "container-fluid">
-        <h1> Top Deals </h1>
+    <div className= "container-fluid my-2">
+        <h3 className='my-2'> Top Deals </h3>
         <div className='media-scroller snap-inline container-fluid'>
             <div className='media-element card1-img' >
                 <img src='https://m.media-amazon.com/images/I/61M5w4HMIJL._AC_UY218_.jpg' alt='iphone' />

@@ -11,7 +11,7 @@ const Products = (props) => {
   const cartItemAmount = cartItems[id];
   return (
 
-    <div className="container-fluid card-container card col-sm-4 my-5">
+  <div className="container-fluid card-container card col-sm-4 my-2">
         <div className=" row "  >
           <div className=" image-fluid " >
           <img src={img} alt={title}  className="card-img"/>

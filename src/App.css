@@ -169,6 +169,10 @@ text-align: center;
   border-radius: 50%;
   position: relative;
 }
+.input {
+  margin: 10px;
+  } 
+  
 
 .cart-icon {
   height: 60px;
@@ -234,7 +238,7 @@ margin: auto;
 }
 .input {
 width: 50px;
-margin: 0;
+margin: 5px;
 } 
 
 }

@@ -18,14 +18,14 @@ const CartItem = (props) => {
     <div className="py-4">
       <div className="container">
         <div className="row">
-          <img className="card-img col-md-6" src={img} alt={title} />
-          <h3>{title}</h3>
+          <div className="col-md-6">
+          <img className="card-img card" src={img} alt={title} />
         </div>
-        <div className="row">
-          <div className="">
+        <div className="col-md-6">
+        <h5>{title}</h5>
+          <div className="me-4">
             <span> GH&#8373;</span> {newPrice}
             <button className="" onClick={() => removeFromCart(id)}>
-          
               -
             </button>
             <input
@@ -45,7 +45,7 @@ const CartItem = (props) => {
               </p>
             </div>
           ) : (
-            <div className="">
+            <div className="container">
               <h1>Your Cart is empty</h1>
               <button
                 className="btn btn-outline-success"
@@ -55,6 +55,7 @@ const CartItem = (props) => {
               </button>
             </div>
           )}
+        </div>
         </div>
       </div>
     </div>
